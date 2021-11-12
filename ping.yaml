@@ -1,2 +1,5 @@
-- name: Example ping
-  ansible.builtin.ping:
+- hosts: "*"
+  become: yes
+  tasks:
+    - name: Example ping
+      ansible.builtin.ping:
