@@ -1,2 +1,2 @@
-- name: ping
+- name: Example ping
   ansible.builtin.ping:
